@@ -1,0 +1,142 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+      	body{
+  background-color: lightgrey;
+  font-family: sans-serif;
+}
+#img-div{
+  color: black;
+  background-color: white;
+  padding: 5px;
+  margin: 0;
+}
+.image{
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+#title{
+  position: relative;
+  text-align: center;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  background-color: white
+}
+@supports (position: sticky) {
+  #title{
+    position: sticky;
+    top: 0;
+  }
+}
+.fig{
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.text{
+  text-align: center;
+}
+.pageinfo{
+  text-align: center;
+  margin: 40px;
+}
+.list{
+  line-height: 1.9;
+  max-width: 545px;
+  text-align: left;
+  margin: 0px auto 50px auto;
+}
+.lists{
+  max-width: 545px;
+  font-style: italic;
+  text-align: left;
+  margin: 0px auto 50px auto;
+}
+.final{
+  text-align: left;
+  max-width: 545px;
+  margin: 0px auto 50px auto;
+}
+ 
+@media (min-width: 100px) and (max-width: 768px) {
+  body{
+    background-color: black;
+    color: white;
+    font-family: tahoma;
+  }
+  .list{
+  line-height: 1.9;
+  max-width: 500px;
+  text-align: left;
+  margin: 0px auto 25px auto;
+  }
+  .fig{
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.text{
+  text-align: center;
+}
+.pageinfo{
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
+  .lists{
+  max-width: 500px;
+  font-style: italic;
+  text-align: left;
+  margin: 0px auto 25px auto;
+}
+  .final{
+  text-align: left;
+  max-width: 500px;
+    margin: 0px auto 25px auto;
+  }
+
+    #title{
+      background-color: black;
+      color: white;
+    }
+}
+      </style>
+      <title>Tribute Page</title>
+    </head>
+    <body>
+      <header id="title">
+         <h1>Marie Curie</h1>
+       </header>
+     <main id="main">
+       <figure id="img-div">
+         <img class="image" src="curie-lab.avif">
+         <figcaption class="fig">Marie Curie (1867–1934) was a pioneering scientist who made significant contributions to the fields of physics and chemistry.</figcaption>
+       </figure>
+       <section>
+      <h2 class="pageinfo">Here's a timeline of Marie Curie's life:</h2>
+      <ul class="list">
+        <li><p><strong>Birth and Early Life:</strong> Marie Skłodowska Curie was born on November 7, 1867, in Warsaw, Poland, which was then part of the Russian Empire. She was the youngest of five children in her family.</p></li>
+        <li><p><strong>Education:</strong> Curie moved to Paris to pursue higher education, where she studied at the Sorbonne (University of Paris). She faced financial challenges but managed to complete her education with academic distinction.</p></li>
+        <li><p><strong>Scientific Achievements:</strong> Marie Curie is best known for her groundbreaking research on radioactivity, a term she coined. In 1898, she, along with her husband Pierre Curie and Henri Becquerel, discovered the radioactive elements polonium and radium. She won two Nobel Prizes: the Nobel Prize in Physics in 1903 (shared with Pierre Curie and Henri Becquerel) for their work on radioactivity, and the Nobel Prize in Chemistry in 1911 for her discovery of radium and polonium, making her the first person to win Nobel Prizes in two different scientific fields.</p></li>
+        <li><p><strong>Isolation of Radium:</strong> Marie Curie successfully isolated radium in its metallic state, a challenging scientific feat at the time.</p></li>
+        <li><p><strong>Contributions to Medicine:</strong> The radioisotopes discovered by Curie were later used in the development of X-ray machines, contributing significantly to medical diagnostics and treatment.</p></li>
+        <li><p><strong>World War I:</strong> During World War I, Marie Curie played a crucial role by using mobile radiography units (referred to as "Little Curies") to provide X-ray services to field hospitals, helping to save countless lives.</p></li>
+        <li><p><strong>Later Life and Legacy:</strong> Marie Curie continued her scientific work and teaching after the death of her husband Pierre in 1906. She faced health issues, likely due to prolonged exposure to radioactive materials, and passed away on July 4, 1934, from aplastic anemia. Marie Curie's legacy extends beyond her scientific achievements; she remains an inspirational figure for her pioneering work and her role as a trailblazer for women in science.</p></li>
+        <li><p>Marie Curie's contributions to science and her perseverance in the face of challenges have left an enduring impact on the fields of physics, chemistry, and medicine. She remains a symbol of dedication and innovation in scientific discovery.</p></li>
+      </ul>
+    </section>
+
+       <blockquote class="lists">
+      <h3>
+        "We must believe that we are gifted for something and that this thing must be attained."
+      </h3>
+    </blockquote>
+     </main>
+    </body>
+  </html>
